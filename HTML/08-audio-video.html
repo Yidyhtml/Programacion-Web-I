@@ -1,0 +1,49 @@
+<!-- 
+ 
+    Audio y video 
+
+    Estas etiquetas nos permíten insertar contenido multimedia.
+
+        <audio> </audio>
+
+        <video> </video>
+    
+    Parámetros
+        -controls: muestra los controles.
+        -autoplay: reproduce automáticamente.
+        -loop: repite el contenido infinitamente.
+        -muted: no reproduce el audio.
+
+    Dentro de restas etiquetas se define una etiqueta de origen.
+
+      <sourse/>
+
+    A source le pasamos el parámetro "src" donde recibe como valor la ubicación del contenido.
+
+    >-->
+
+    <!DOCTYPE html>
+    <html lang="Es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🍥Audio y video </title>
+    </head>
+    <body>
+        <h1>🍥Audio y video</h1>
+
+        <h2>Contenido de audio</h2>
+
+        <audio controls autoplay loop muted>
+            <source src="./Audio/Mitski-Goodbye.mp3"/>
+            Tu navegador no es compatible con el contenido multimedia.
+         </audio>
+        
+         <h2>Contenido de video</h2>
+         
+         <video controls autoplay muted loop width="480px">
+            <source src="./Video/Juegos.mp4"/>
+            Tu navegador no es compatible con el contenido multimedia.
+         </video>
+    </body>
+    </html>

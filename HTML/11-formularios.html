@@ -1,0 +1,65 @@
+<!-- 
+ 
+Formularios
+
+Son elementos que permiten el ingreso de información por parte del usuario.
+
+<form>...</form> 🍙 contenedor del fromulario.
+
+<input/> 🍙 campos de acceso de información (etiquetas de autocierre) Hay de texto, de botón, área de texto, checkbox, etc.
+
+<labels>...</labels> 🍙 etiquetas asociadas a un input.
+
+<textarea>...</textarea> 🍙 campo de texto más grandes, textos largos.
+
+<select>...</select> 🍙 Abren un menú desplegable.
+
+<option>...</option> 🍙 opciones del menú desplegable.
+
+<button>...</button> 🍙 un botón que generalmente al ser presionado envia los datos. Para esto necesita ser programado.
+
+Parámetros
+
+Para label
+    -for 🍡 indica la relación con el input
+    
+Para input
+    -type 🍡 el tipo de campo
+    -name 🍡 nombre del input con el que se relaciona el label
+    -id 🍡 identificador del input para programar el formulario
+    -placeholder 🍡 texto que aparece dentro del input como pista para el usuario
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍥Formularios</title>
+</head>
+<body>
+    <h1>🍥Formularios</h1>
+
+    <h2>Contacto</h2>
+
+    <form>
+        <label for="nombre">Nombre</label> <br/>
+        <input name="nombre" type="text" id="nombre" placeholder="Escribe tu nombre aquí"/> <br/>
+
+        <label for="email">Email</label> <br/>
+        <input name="email" type="email" id="email" placeholder="tu.email@ejemplo.com"/> <br/>
+
+        <label for="mensaje">Mensaje</label> <br/>
+        <textarea name="mensaje" id="mensaje" placeholder="Deja un comentario"></textarea> <br/>
+
+        <label for="pais">País</label> <br/>
+        <select name="pais" id="pais">
+            <option>México</option>
+            <option>Honduras</option>
+            <option>Brasil</option>
+        </select> <br/> <br/> <br/>
+
+        <button type="submit" id="submit">¡Click aquí!</button>
+    </form>
+</body>
+</html>
