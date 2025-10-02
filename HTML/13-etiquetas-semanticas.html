@@ -1,0 +1,118 @@
+<!-- 
+ 
+Etiquetas semánticas.
+
+Significan un tipo de contenido para el navegador, esto le ayuda a clasificar la información y mejorar la experiencia del usuario.
+
+Google aprovecha esta semántica para puntear mejor estas páginas web.
+
+<header>...</header> 🍡 Define el encabezado de un documento o sección.
+
+<nav>...</nav> 🍡 Define un conjunto de enlaces de navegación. Generalmente se usa para la navegación principal.
+
+<main>...</main> 🍡 Define el contenido principal del documento.
+
+<section>...</section> 🍡 Define una sección de un docuemento.
+
+<article>...</article> 🍡 Define un artículo independiente.
+
+<aside>...</aside> 🍡 Define contenido adicional o complementaria.
+
+<footer>...</footer> 🍡 Define el pide de página de un documento o sección.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍥 Etiquetas semánticas</title>
+</head>
+<body>
+    <h1>🍥 Etiquetas semánticas</h1>
+
+    <header>
+        Soy el encabezado de la página. Puedo contener un texto principal, el logotipo y los enlaces de navegación.
+        <nav>
+            Inicio | Acerca de | Proyectos | Contacto
+        </nav> 
+    </header>
+    <main> 
+        Aquí va el contenido principal de la página y generalmente seccionado.
+        <section>
+            <h2>Biografía</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus consequuntur possimus consectetur molestias temporibus dolorem adipisci minima. Facere sequi omnis repellat reprehenderit eum eaque quae iure. Necessitatibus, alias eum.</p>
+        </section>
+
+
+         <section>
+         <header>
+                <h2>Proyectos</h2>
+        </header>
+
+        <article>
+            <h3>Primer proyecto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, voluptate ea tempora voluptatum odio consectetur omnis ab sed? Blanditiis minus dolorem porro praesentium ad veniam distinctio ullam fugiat maxime a?</p>
+        </article>
+
+        <article>
+            <h3> Segundo proyecto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, voluptate ea tempora voluptatum odio consectetur omnis ab sed? Blanditiis minus dolorem porro praesentium ad veniam distinctio ullam fugiat maxime a?</p>
+        </article>
+
+        <article>
+            <h3>Tercer proyecto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, voluptate ea tempora voluptatum odio consectetur omnis ab sed? Blanditiis minus dolorem porro praesentium ad veniam distinctio ullam fugiat maxime a?</p>
+        </article>
+
+            <footer>
+                <span>Creador: Chack</span>
+            </footer>
+        </section>
+
+        <section>
+         <div>
+                <h2>Contacto</h2>
+         </div>
+
+         <div>
+            <form>
+                <label action="email"></label>
+                <input type="email" name="email" id="email">
+                <button>Suscribirse</button>
+            </form>
+         </div>
+        </section>
+    </main>
+    <aside> 
+        Aquí vamos a tener contenido secundario.
+        <section>
+            <h3>Portafolios amigos</h3>
+            <ul>
+                <li>Portafolio de Chack</li>
+                <li>Portafolio de Dan</li>
+                <li>Portafolio de Monse</li>
+                <li>Portafolio de Toño</li>
+                <li>Portafolio de Agus</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Patrocinadores</h3>
+            <div>
+                <img src="banner-patrocinador.png" alt="logotipo de MSI">
+            </div>
+        </section>
+    </aside>
+
+
+    <footer>
+        Pie de la página, contiene el cierre de nuestro documenro.
+        Navegaciones secundarias,enlaces a páginas de legales, enlaces a redes sociales, copyrigth e incluso formularios.
+        <p>copyrigth. ©2025</p>
+    </footer>
+
+</body>
+</html>

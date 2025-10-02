@@ -1,0 +1,47 @@
+Práctica de HTML
+
+Objetivo: Crear una estructura de HTML con etiquetas semánticas y elmentos como: títulos, imágenes y videos. También agregaremos un formulario para solicitar el nombre y correo electrónico del usuario.
+
+Tema: 
+
+ -Vamos a elegir una historia con trilogía, 3 capítulos o 3 películas o 3 cómics.
+ -Necesitaos la siguiente información:
+
+   1. Introducción a la historia general. (Breve)
+   2. Sinopsis. (Más larga)
+   3. Historia, año y descripción de cada película.
+   4. Personajes principales. (Descripción breve)
+   5. Trailers oficiales de cada capítulo.
+   6. Formulario
+   
+
+Introducción general:
+Las películas de Equestria Girls son un spin-off de My Little Pony: Friendship Is Magic. En lugar de ponis, los personajes principales aparecen como adolescentes humanas en un mundo paralelo. A lo largo de las películas, exploran temas de amistad, magia, crecimiento personal, rivalidades, retos emocionales y la integración de poderes mágicos en situaciones cotidianas (escuela, competencias, campamentos). Cada película introduce algún conflicto mágico que las protagonistas deben resolver trabajando juntas, aprendiendo algo sobre sí mismas.
+
+
+Sinopsis general:
+Equestria Girls es una saga derivada de My Little Pony: Friendship Is Magic, que transporta a los personajes del universo de los ponis a un mundo paralelo donde existen como adolescentes humanas en una escuela secundaria. Todo comienza cuando Twilight Sparkle, una princesa pony de Equestria, cruza un portal mágico para recuperar su corona robada y descubre este nuevo mundo.
+En este universo alterno, Twilight conoce a las versiones humanas de sus amigas (Rainbow Dash, Applejack, Pinkie Pie, Rarity y Fluttershy), y junto a ellas debe enfrentar diversas amenazas mágicas que han cruzado desde Equestria o surgido en ese mundo. A lo largo de las películas, también se exploran temas como la redención (especialmente con Sunset Shimmer, una antigua antagonista que se vuelve aliada), el crecimiento personal, la presión social, y el poder de la amistad para vencer el miedo, la oscuridad interior y las rivalidades.
+Cada película introduce un nuevo reto mágico que amenaza la armonía del grupo o del entorno, y las protagonistas deben aprender a trabajar juntas, confiar unas en otras y dominar habilidades especiales que surgen en ellas, demostrando que la verdadera magia siempre está en la amistad.
+
+
+Sinopsis de cada película
+1. Equestria Girls (2013)
+Twilight Sparkle debe recuperar su corona mágica, robada del Imperio de Cristal, lo que la lleva a un mundo paralelo donde se transforma en una adolescente humana. Allí se enfrenta a Sunset Shimmer, quien gobierna con manipulación en la escuela secundaria Canterlot High. Para recuperar su corona y salvar ambos mundos, Twilight deberá adaptarse al mundo humano, formar nuevas amistades (las versiones humanas de sus amigas pony), y demostrar el valor de la verdadera amistad.
+
+2. Rainbow Rocks (2014)
+Después de que Twilight regresa a Equestria, Sunset Shimmer trata de redimirse por sus acciones pasadas. Pero una nueva amenaza aparece: tres chicas conocidas como The Dazzlings, que utilizan el poder de la música para controlar emocionalmente a los estudiantes de Canterlot High. Para enfrentarlas, Sunset y sus nuevas amigas forman una banda, The Rainbooms, y participan en una Batalla de Bandas donde la música y la magia se combinan en una lucha por la armonía y la amistad.
+
+3. Los Juegos de la Amistad (Friendship Games, 2015)
+Canterlot High se enfrenta a la academia Crystal Prep en los Juegos de la Amistad, una competencia académica y deportiva entre escuelas. Sin embargo, las cosas se complican cuando aparece la versión humana de Twilight Sparkle, conocida como Sci-Twi, quien sin saberlo empieza a absorber la magia de sus nuevas compañeras. Presionada por su directora, Cinch, y confundida por el poder, Sci-Twi pierde el control y se transforma en una amenaza mágica. Sunset Shimmer toma el papel de líder para detenerla y restaurar el equilibrio.
+
+
+Trailers
+1. https://youtu.be/c3hBtBibN_M?si=F_A9pEnfOkOzWdRr
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3hBtBibN_M?si=_YA6ryCHYPddAPsu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+2. https://youtu.be/T2c-3Sznci8?si=eEvdW7AjkoqYkY_r
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M-N2Fn1tP3Q?si=skM8S3ciSeISoq12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+3. https://youtu.be/aWcVn8iKkeo?si=IR5yYPlze8ndea8p
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWcVn8iKkeo?si=ixRptPm77FfNLaGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
