@@ -1,0 +1,30 @@
+/* Esto es un bloque de comentario en CSS
+
+Su shorcut es Alt + Shift + A
+
+Esto nos sirve para documentar el código de CSS
+*/
+
+/* 
+
+Sintaxis
+
+La sintaxis se usa para definir los estilos que se aplican a los elementos html
+
+En css consta de 3 componentes:
+
+    selector { 
+    propiedad:valos;
+    
+    Selector, el elemento de HTML al que se le aplica le estilo.
+    aPropiedad, es la característica que se definira en el elemento.
+    Valor, El estilo qe se le aplica a la propiedad
+    
+    El conjunto de estos elementos se le conoce xo,o regla de CSS  }
+    */
+body {
+    background-color: black;
+    color: crimson;
+}
+
+
