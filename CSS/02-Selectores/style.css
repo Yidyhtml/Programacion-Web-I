@@ -68,4 +68,86 @@ Selector de Elemento: Selecciona un tipo de elemento de HTML con su nombre.
     Seleccioana los elementos de HTML que tienen definida una clase o un ID en sus atributos.
     
     Clase: Se usa la notación de .nombre-clase
-    ID: Se usa la notación de #nombreId*/
+    ID: Se usa la notación de #nombreId
+    
+    
+    3. Selectores combinados
+     -Descendientes, Seleccionan elementos dentro de otros elementos.
+
+     elemento elementointerno {
+     ...
+     }
+    */
+
+    section h2 {
+        color: crimson;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: none;
+    }
+
+    .mounstruos {
+
+    }
+
+    body .galeria { 
+        background-color: chocolate;
+
+    }
+
+    .galeria .mounstruos {
+        background-color: darkseagreen;
+
+    }
+
+    /* 
+    
+    Selectores combinados
+    
+    -Hijo directo. Selecciona elementos que son hijos directos de un elemento padre.
+
+        elementoPadre > elementoHijo {
+        ...
+        
+        }    
+    */
+
+    
+.mounstruos > li {
+        border: none;
+        text-align: center;
+          background-color: deeppink;
+          margin-bottom: 24px;
+    }
+  
+
+    /*
+    Selector combinado
+    Elemento adyacente:Selecciona el primer elemento inmediatamente después de otro elemento. Es decir, su hermano inmediato.
+    
+        elemento + elementoAdyacente {
+        ...
+        }
+
+    */
+
+    .primerhermano + li {
+        font-size: 2 rem;
+        color: crimson;
+    }
+
+
+   /* 
+   
+   Selectores combinados
+
+   -Hermanos Generales.Selecciona todos los hermanos despúes de un elemento. Virgulilla Alt Gr 
+
+   elemento - elementoHermano { 
+   ...
+   
+   }
+*/
+   .primerhermano ~ li {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: Underline;
+   

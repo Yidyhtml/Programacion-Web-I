@@ -1,0 +1,81 @@
+/* 
+Cascada y especifidad
+
+Estos dos conceptos se refieren a como el navegador decide aplicar los estilos.
+
+Cascada: Orden de las reglas de CSS
+-Especifidad: Valor de las reglas de CSS
+
+
+
+Cascada: Si un selector se repite a lo largo del código se aplicará la última regla escrita.
+
+CSS: Cascade Style Sheet - Hoja de estilos en cascada.
+
+
+*/
+
+h1 {
+    color: rgb(89, 43, 226);
+}
+h1 {
+    color: rgb(226, 43, 125);
+}
+
+/* 
+Especifidad: El valor de importancia de los selectores. se aplican del menos importante al más importante.
+
+Selectores de elemento - 1pnt
+Selector de clase - 10 pnts
+Selector de Id - 100 pnts
+Selector en línea - 1000 pnts
+!important . Vale todo
+
+*/
+
+
+
+#titulo {
+    color: cornflowerblue;
+}
+
+.titulo {
+    color: brown;
+}
+
+h1 {
+    color: chocolate;
+}
+
+
+#titulo {
+    color: cornflowerblue;
+}
+
+
+h1{
+    color: darkgoldenrod !important; 
+
+}
+
+/* Especifidad de selectores combinados */
+
+header .titulo {
+    color: chartreuse;
+}
+
+.cabecera .parrafo {
+    color: bisque;
+}
+
+.cabecera #parrafo {
+color: darkorchid;
+
+}
+
+/* Si las reglas tienen la misma especifidad, entonces se aplica la ultima regla escrita, es decir, por cascada.*/
+
+.cabecera #parrafo {
+color: rgb(231, 38, 92);
+
+}

@@ -1,0 +1,76 @@
+body {
+
+    background-color: grey;
+}
+
+/* 
+Fuentes
+
+Las fuentes son un aspecto fundamental del diseño, influyen mucho en la estética, la legibilidad y jerarquía visual 
+
+Para definir un afamilia tipográfica utilizamos la propiedad:
+    font-family: "nombre de la fuente";
+
+1. Web Safe Fonts > Fuentes web seguras. Son tipografías predeterminadas y que se pueden usar en cualquier dispositivo, sistema operativo o navegador web.
+
+-Por estilo o categoría > Keywords o palabras clave
+    >serif
+    >sans-serif
+    >monospace
+    >cursive > Script
+    >fantasy > Decorativa
+
+-Por nombre de la familia tipográfica
+    -Arial
+    -"Times New Roman"
+    -Verdana
+    ...
+Los valores con más de una palabra se escriben entre comillas dobles " " o simples ' '
+
+La recomendación es usar un máximo de 2 fuentes de respaldo, si por alguna razón no se carga la fuente principal, se cargarán las secundarias. Los nombres se separan por comas.
+*/
+
+
+body {
+    font-family: serif; /* Default del user agent */
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy; /* Impact */
+}
+
+h1 {
+    font-family: Arial;
+    font-family:"Times New Roman";
+    font-family:Verdana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Times, serif;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+    }
+
+    /* 
+    2.Fuentes personalizadas
+
+    Son fuentes que nosostros elegimos de acuerdo al estilo de la web o a los lineamientos de la marca gráfica.
+
+        -Fuentes externas: Se llaman a través de recursos en línea o servidores remotos. Por ejemplo google fonts.
+        -Fuentes internas: Se llaman a través de nuestras carpetas o servidor propio.
+
+    
+    */
+
+    /*
+     Llamamos a nuestra tipografía interna con la sentencia @font-face
+     */
+     
+     @font-face {
+        font-family: "Gatetes";
+        src: url("./CatsFont-Regular.ttf"), format(.ttf);
+     }
+
+    p{
+        font-family: "Gatetes", fantasy;
+    }
