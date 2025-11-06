@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(37, 37, 37); /* No se hereda */
+    font-family: sans-serif; /* Se hereda */
+    color: azure; /* Se hereda */
+    margin: 0px;
+}
+
+/* Bloque y línea   
+    Los elementos de bloque miden todo el ancho disponible de su contenedor, Los elementos de bloque miden el alto de su contenido.
+
+    Los elementos de línea miden el ancho y el alto de su contenido.
+
+    Ancho (width) y Alto (heigth): Nos sirven para establecer las dimensiones de los elementos de html.
+
+    width: Define el ancho y recibe valores en unidades como px, %, em, rem, auto.
+    heigth: Define la altura y recibe valores en unidades como px, %, em, rem, auto.
+
+    *Si no se ele especifica la altura a un elemento de bloque, el elemento ajustará su altura al contenido.
+
+    *Se recomienda utilizar unidades relativas para mejorar la adaptibilidad de los elementos en html.
+
+
+*/
+
+div { 
+    background-color: rgb(255, 59, 134);
+    width: auto; /* default */
+    width: 300px;
+    width: 50%; /* relativa */
+
+    height: auto; /* default */
+    height: 100vh; /*  */
+    height: 50%; /* No funciona */
+    height: 200px;
+
+    
+
+}
+
+span {
+    background-color: rgb(255, 255, 255);
+    color: black;
+     width: auto; /* No funciona */
+    width: 300px;/* No funciona */
+    width: 50%; /* No funciona */
+
+    height: auto; /* No funciona */
+    height: 100vh; /* No funciona */
+    height: 50%; /* No funciona */
+    height: 200px;/* No funciona */
+    display: inline-block;
+    display: block;
+}
+  /* No podemos modificar su ancho o alto, siempre será automático y dependerá de su contenido. Si queremos que un elemento de línea responda añl ancho y alto, necesitamos cambiar su comportamiento de visualización con la propiedad display.
+    
+    Display: Determina el comportamiento de visualización de un elemento en html. Recibe valores como inline-block y block.
+
+    display:inline: cambia de línea a bloque.
+    
+    */
