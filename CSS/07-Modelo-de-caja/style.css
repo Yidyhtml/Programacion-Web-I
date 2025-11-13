@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 24px;
+}
+
+i {
+    color: bisque;
+}
+
+
+/* Modelo de caja, es un concepto fundamenal de css que describe como los objetos de una página web se organizan y calcuñlan su tamaño.
+1. contenid
+    es el área donde se encuentra el texto, las imágenes y algún otro elemento fijo, el tamaño de esta área se define con width y heigth
+
+
+2. Padding
+
+    Es el espacio entre el contenido y la caja, nos ayuda a crear un espacio interno al rededor del contenido 
+Esta propiedad es un shothand o propiedad abreviada que controla los cuatro lados posibles de la caja.
+  SHORTHAND
+    PADDING:top rigth butom left; // 4 valores
+    PADDING: top left/rigth buttom; // 3 valores
+    PADDING: top /rigth buttom; // 2 valores
+    PADDING: t /buttom / l / R;  // 1 valores
+  
+  INDIVIDUALES  
+    padding-top: valor;
+    padding-rigth: valor;
+    padding-buttom: valor;
+    padding-left: valor;
+
+
+3. Border
+    Es el área que rodea al contenido y al padding. Podemos modificar su grosor, estilo y color.
+
+  SHORTHAND
+    border: ancho, estilo y color
+
+  INDIVIDUAL
+    border-width: valor;
+    border-style: valor;
+    border-color: valor;
+
+  PROPIEDADES POR LADO
+    border-top-width: valor;
+    border-rigth-width: valor;
+    border-buttom-width: valor;
+    border-left-width: valor;
+
+    border-top-style: valor;
+    border-rigth-style: valor;
+    border-buttom-style: valor;
+    border-left-style: valor;
+
+    border-top-color: valor;
+    border-rigth-color: valor;
+    border-buttom-color: valor;
+    border-left-color: valor;
+
+
+  Valores de estilo de borde
+
+    -solid -lineal
+    -dashed -guiones
+    -dotted -puntos
+    -double -doble línea
+    -groove -biselado
+    -none -nada
+    -hiddden -oculto
+
+4. Margin
+    Nos permite crear un espacio entre el borde de un elemento y otros elementos de la página.
+
+    SHORTHAND:
+     margin: top rigth bottom left; 4 valores
+     margin: top rigth/left bottom; 3 valores
+     margin: top/bottom rigth/left; 2 valores
+     margin: t/r/b/l; 1 valores
+
+    INDVIDUALES
+     margin-top: valor;
+     margin-rigth: valor;
+     margin-bottom: valor;
+     margin-left: valor;
+
+    
+ */
+
+
+ /* box sizong: Es la propiedad que calcula las dimensiones de un elemento incluyendo el pading y el border.
+    Puede tener dos valores:
+        box-sizing: content-box;     -Valor por defecto. Si a un elemento le agregamos padding y border. Sus valores se suman al total del ancho y el alto
+
+        box-sizing: border-box;    -Este valor modifica el comportamiento de la caja y no suma los valores de padding y border al ancho y al alto total de la caja.
+
+        NOTA: Una práctica común es definirle a todos los elementos del html
+        
+        */
+
+ .card {
+    width: 300px;
+    height: auto;
+    padding: 24px;
+    padding: 24px 24px;
+    padding: 24px 24px  0px;
+    padding: 24px 32px 40px 48px;
+    padding: 24px;
+    border: 5px groove rgb(255, 255, 255);
+    margin: 24px 12px 24px;
+    
+    background-color: rgb(79, 79, 79);
+    display: inline-block;
+ }
+
+ .card-image {
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* background-color: crimson; */
+    display: block;
+    margin: 24px 0px;
+ }
+
+ .card-tittle{
+    padding: 16px 0px;
+   /*  background-color: blue;
+ } */ }
+
+ .card-attack {
+
+   
+    border-bottom: 2px dashed azure;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+   
+    
+    margin-bottom: 8px;
+
+    
+
+ }
+
+ .card-description {
+    /* background-color: chocolate; */
+
+    padding: 8px;
+    border-top-width: 2px;
+    border-top-color: rgb(227, 227, 227);
+    border-top-style: dashed;
+
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: dashed;
+ }
+
+ .card-skills {
+   /*  background-color: rgb(214, 167, 68); */
+   
+ }
+
+ ul {
+    list-style: none;
+    /* esto quita los bullets por default */
+    
+ }
