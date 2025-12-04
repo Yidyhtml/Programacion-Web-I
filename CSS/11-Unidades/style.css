@@ -1,0 +1,159 @@
+/* 
+
+    Unidades en CSS
+
+    Las unidades en CSS se dividen en dos categorías principales:
+
+    1. Unidades absolutas
+        -Mantienen valores fijos independientemente del dispositivo o contexto. Es decir, "siempre" tendrán el mismo valor sin importar el tamaño de pantalla o del contenedor. Son útiles cuando se requiere presición en las medidas, pero NO son ideales para diseño web responsivo.
+
+        Las unidades absolutas más usadas son:
+        -px (pixeles) : Esta unidad marca un punto en la pantalla. (1/96 in)
+
+        Otras unidades: 
+        -cm(centímetros): 1cm=96px=2.54in
+        -mm (milímetros) : 1/10 de 1cm
+        -in (pulgada): 96px
+        pc (picas): 1/6 in
+        pt (puntos) 1/72 de in
+
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+section{
+    font-size: 24px;
+    margin: 48px;
+    padding: 24px;
+    border: 1px rgb(210, 210, 210);
+    border-radius: 16px;
+    background-color: rgb(40, 40, 40);
+}
+
+
+/* .box {
+    text-align: center;
+    margin: 16px auto;
+    padding: 16px;
+    color: aliceblue;
+} */
+
+
+.px {
+    background-color: rgb(95, 135, 160);
+    width: 200px;
+    height: 200px;
+}
+
+.cm {
+     background-color: rgb(117, 95, 160);
+     width: 5cm;
+     height: 5cm;
+}
+
+
+.in {
+     background-color: rgb(160, 98, 95);
+     width: 2in;
+     height: 2in;
+}
+
+
+/* 2. Unidades relativas
+
+
+    Son unidades que adaptan sus valores en función del dispositivo o contexto. Es decir, se cambiarán  de acuerdo al área visible de la pantalla, al contenedor u otro valor de referencia.
+
+    Son útiles cuanso necesitamos flexibilidad y son ideales para el diseño web responsivo
+
+    Las unidades más usadas son: 
+
+    em: relativa al tamaño de elemento padre en el html.
+    em: relativa al tamaño de elemento raíz o root > html.
+    %: relativo al elemento padre 
+    viewport width: es un porcentaje relativo al ancho del área visible del navegador.
+    viewport height porcentaje relativo al alto del área visible del navegador.
+    viewport min: es un porcentaje relativo al lado más pequeño del área visible del navegador.
+    viewport max: es un porcentaje relativo al lado más grande del área visible del navegador.
+    
+
+    
+
+
+ 
+*/
+
+html {
+    font-size: 24px;
+}
+
+article{
+    font-size: 24px;
+    margin: 48px;
+    padding: 24px;
+    border: 1px rgb(122, 122, 122);
+    border-radius: 16px;
+    background-color: rgb(14, 14, 14);
+}
+
+.em { 
+    background-color:rgb(62, 22, 22);
+    width: 2em;
+}
+
+
+.rem { 
+    width: 6rem;
+    background-color: rgb(62, 22, 49);
+
+}
+
+
+.porcentaje { 
+    width: 50%;
+    background-color: rgb(62, 59, 22);
+}
+
+
+.vw { 
+   
+   
+    background-color: rgb(62, 35, 22);
+}
+
+
+.vh { 
+    background-color:rgb(22, 55, 62);
+}
+
+
+.vmin { 
+    background-color: rgb(42, 22, 62);
+}
+
+
+.vmax { 
+    background-color: rgb(25, 62, 22);
+}
