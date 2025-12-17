@@ -22,14 +22,83 @@ body{
     box-shadow: 0 24px 24px#00000014;
     border-radius: 12px;
     padding:24px;
+    position: relative; /* el lo badge usa como referencia para posicionarse */
+    margin-top: 50px;
 }
 
+.profile-header {
+    margin-bottom: 24px;
+    
+}
+
+.profile-skills {
+    margin-bottom: 24px;
+
+}
+
+.profile-skills h3 {
+    color: #c060a9;
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+}
+
+.skill-list {
+    list-style: none;
+}
+
+.skill-list li {
+    padding: 4px 8px;
+    background-color: #414141;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+
+.contact-button {
+    padding:12px 8px;
+    background-color: #c52070;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    display: block; /* las a son de línea */
+    border-radius: 4px;
+    margin-bottom: 12px;
+    text-decoration: none;
+
+}
+
+
+.status-badge {
+    padding:4px 8px ;
+    border-radius: 4px;
+    background-color: #ca4384;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 3px;  /* unidades en px */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+.Social-media img {
+    width: 24px;
+    height: 24px;
+    background-color: #c52070;
+    border-radius: 50%;
+    padding: 3px;
+}
 
 .profile-photo{
     max-width: 120px;
     border-radius: 50%;
-    border: 4px solid #c060a9;
+    border: 4px solid #c52070;
     margin-bottom: 16px;
+    
 }
 
 .profile-details h2 {
@@ -44,3 +113,4 @@ body{
     font-size: .875rem;
     
 }
+
