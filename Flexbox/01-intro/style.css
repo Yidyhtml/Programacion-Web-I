@@ -1,0 +1,25 @@
+body { 
+    background-color: rgb(170, 170, 170);
+}
+
+/* FLEXBOX 
+
+   Habilitamos propiedades de flexbox con display: flex en el contenedor. 
+
+*/
+
+.container {
+    display: flex;
+    padding: 24px;
+    background-color: cadetblue;
+}
+
+.item {
+    background-color: hotpink;
+}
+
+.item-flex {
+    display: flex;
+    padding: 12px;
+    background-color: crimson;
+}
